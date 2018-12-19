@@ -1,0 +1,13 @@
+package person;
+
+public class Test_robot {
+	public static void main(String[]args){
+		Robot aibo=new Robot();
+		aibo.name="アイボ";
+
+		System.out.println(aibo.name);
+	    System.out.println(aibo.age);
+        aibo.talk();
+        aibo.walk();
+}
+}
