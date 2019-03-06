@@ -70,7 +70,7 @@
 
 		<div>
 			<span>新規ユーザー登録は
-				<a href=`<s:url action="UserCreateAction"/>'></a>
+				<a href='<s:url action="UserCreateAction"/>'>こちら</a>
 			</span>
 		  </div>
 		</div>
