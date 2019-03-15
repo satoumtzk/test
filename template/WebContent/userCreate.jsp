@@ -68,14 +68,14 @@ table{
 					<p>UserCreate</p>
 			</div>
 			<div>
-			<s:if test="errorMessage !="">
+			<s:if test="errorMessage != ''">
 					<s:property value="errorMessage" escape="false" />
 			</s:if>
 			<table>
 			<s:form action="UserCreateConfirmAction">
 			<tr>
 				<td>
-					<label>ログインID</label>
+					<label>ログインID:</label>
 				<td>
 				<td>
 					<input type="text" name="loginUserId" value=""/>
@@ -83,8 +83,8 @@ table{
 			</tr>
 			<tr>
 				<td>
-					<input type="text" name="loginUserId" value=""/>
-				</td>
+                 <label>ログインPASS:</label>
+               </td>
 				<td>
 					<input type="text" name="loginPassword" value=""/>
 				</td>
