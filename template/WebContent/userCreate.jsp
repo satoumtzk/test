@@ -76,7 +76,7 @@ table{
 			<tr>
 				<td>
 					<label>ログインID:</label>
-				<td>
+				</td>
 				<td>
 					<input type="text" name="loginUserId" value=""/>
 				</td>

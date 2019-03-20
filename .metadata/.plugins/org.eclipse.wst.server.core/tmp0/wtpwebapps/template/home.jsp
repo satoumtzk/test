@@ -42,10 +42,17 @@
 
 	 #main{
 	 	width:100%;
-	 	height:80px;
-	 	background-color:black;
-	 	clear:both;
+	 	height:500px;
+	 	text-align:center;
 	 }
+
+
+		#footer {
+		width: 100%;
+		height: 80px;
+		background-color: black;
+		clear:both;
+		}
 </style>
 </head>
 <body>
