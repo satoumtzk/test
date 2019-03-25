@@ -1,0 +1,5 @@
+127.0.0.1 - - [25/Mar/2019:20:30:59 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [25/Mar/2019:20:31:04 +0900] "GET /template/buyItem.jsp HTTP/1.1" 200 2833
+0:0:0:0:0:0:0:1 - - [25/Mar/2019:20:31:30 +0900] "POST /template/BuyItemAction;jsessionid=10A56C21C57EF981E7526CC26CAD5C6D HTTP/1.1" 200 3523
+0:0:0:0:0:0:0:1 - - [25/Mar/2019:20:31:38 +0900] "GET /template/HomeAction.action;jsessionid=10A56C21C57EF981E7526CC26CAD5C6D HTTP/1.1" 200 2101
+0:0:0:0:0:0:0:1 - - [25/Mar/2019:20:31:43 +0900] "GET /template/UserCreateAction.action HTTP/1.1" 200 2262
