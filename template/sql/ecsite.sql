@@ -18,7 +18,7 @@ insert_date datetime
 drop table if exists item_info_transaction;
 
 create table item_info_transaction(
-id int not nill primary key auto_increment,
+id int not null primary key auto_increment,
 item_name varchar(30),
 item_price int,
 item_stock int,
@@ -43,6 +43,4 @@ INSERT INTO item_info_transaction(item_name,item_price,item_stock) VALUES("ãƒŽãƒ
 INSERT INTO login_user_transaction(login_id,login_pass,user_name)VALUES("internous","internous01","test");
 
 
-)
-)
 

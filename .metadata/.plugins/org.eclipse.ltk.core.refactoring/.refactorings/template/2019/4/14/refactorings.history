@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;buyItemComplete.jsp, buyItemConfirm.jsp, userCreateComplete.jsp, userCreateConfirm.jsp&apos; を &apos;WebContent&apos; に移動" description="4 個のリソースを &apos;WebContent&apos; に移動" destination="WebContent" element1="WebContent/WEB-INF/buyItemComplete.jsp" element2="WebContent/WEB-INF/buyItemConfirm.jsp" element3="WebContent/WEB-INF/userCreateComplete.jsp" element4="WebContent/WEB-INF/userCreateConfirm.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="4" stamp="1554116590397" updateReferences="true"/>
+</session>
