@@ -80,9 +80,12 @@
 								<span>値段</span>
 							</td>
 							<td>
-							<s:property value="session.buItem_price"/>
+							<s:property value="session.buyItem_price"/>
 								<span>円</span>
 							</td>
+						</tr>
+						<tr>
+							<td>購入個数</td>
 							<td>
 								<select name="stock">
 								<option value="1" selected="selected">1</option>

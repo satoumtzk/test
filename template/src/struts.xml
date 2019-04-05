@@ -49,7 +49,6 @@
 		<result name="success">buyItemComplete.jsp</result>
 		</action>
 
-
 		<!-- MyPageAction -->
 		<action name="MyPageAction"
 		class="com.internousdev.template.action.MyPageAction" method="execute">

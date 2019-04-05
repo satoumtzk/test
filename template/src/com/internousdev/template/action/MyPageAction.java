@@ -13,7 +13,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 	public Map<String,Object> session;
 	public String deleteFlg;
 	private String result;
-	public String eecute() throws SQLException{
+	public String execute() throws SQLException{
 		MyPageDAO myPageDAO=new MyPageDAO();
 		MyPageDTO myPageDTO=new MyPageDTO();
 

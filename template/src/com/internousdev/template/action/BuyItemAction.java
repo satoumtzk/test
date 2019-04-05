@@ -4,8 +4,8 @@ import java.util.Map;
 import org.apache.struts2.interceptor.SessionAware;
 
 import com.opensymphony.xwork2.ActionSupport;
-public class BuyItemAction extends ActionSupport implements SessionAware {
 
+public class BuyItemAction extends ActionSupport implements SessionAware {
 		private int stock;
 		private String pay;
 		public Map<String, Object>session;
@@ -26,17 +26,18 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 	        }
 	        return result;
 		}
+
 		public int getStock(){
 			return stock;
 		}
 
 		public void setStock(int stock) {
 			this.stock = stock;
-			}
+		}
 
 		public String getPay() {
 			return pay;
-			}
+		}
 		public void setPay(String pay) {
 			this.pay = pay;
 		}

@@ -1,9 +1,0 @@
-127.0.0.1 - - [15/Mar/2019:20:42:21 +0900] "GET / HTTP/1.1" 404 1019
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:42:23 +0900] "GET /template/ HTTP/1.1" 200 1535
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:42:27 +0900] "POST /template/HomeAction.action;jsessionid=2EF02F831B70748E866E1AA39C714ABA HTTP/1.1" 200 2021
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:43:39 +0900] "GET /template/UserCreateAction.action HTTP/1.1" 200 3529
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:43:49 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 1491
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:43:51 +0900] "POST /template/HomeAction.action HTTP/1.1" 200 2021
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:48:16 +0900] "GET /template/ HTTP/1.1" 200 1491
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:48:18 +0900] "POST /template/HomeAction.action HTTP/1.1" 200 2021
-0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:48:25 +0900] "GET /template/UserCreateAction.action HTTP/1.1" 200 3529
