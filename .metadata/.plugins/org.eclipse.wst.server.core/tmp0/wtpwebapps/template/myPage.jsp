@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta http-equiv="Content-Style-Type" content="text/css"/>
 	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta http-equiv="imagetoolbar" content="no"/>
@@ -59,7 +59,7 @@
 </head>
 <body>
 	<div id="header">
-		<div id=pr>
+		<div id="pr">
 		</div>
 	</div>
 
@@ -80,20 +80,18 @@
 					<td>
 						<s:property value="session.total_price"/>
 							<span>円</span>
-					<td>
+					</td>
 				</tr>
 				<tr>
 					<td>購入個数</td>
 					<td>
-						<s:property value="session.total_price"/>
+						<s:property value="session.total_count"/>
 							<span>個</span>
-					<td>
+					</td>
 				</tr>
 				<tr>
 					<td>支払い方法</td>
-					<td>
-						<s:property value="session.total_payment"/>
-					<td>
+					<td><s:property value="session.total_payment"/></td>
 				</tr>
 			</table>
 		    <s:form action="MyPageAction">
@@ -106,7 +104,7 @@
 		   </s:if>
 		   		<div>
 		   			<br>
-		   			<span>全画面に戻る場合は</span>
+		   			<span>前画面に戻る場合は</span>
 		   			<a href='<s:url action="HomeAction"/>'>ログアウト</a>
 		   			<span>をお願いします</span>
 		   		</div>
